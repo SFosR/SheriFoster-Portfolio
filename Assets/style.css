@@ -1,17 +1,25 @@
 * {margin: 0; padding: 0;}
 
-body {font-family: 'Open Sans', sans-serif; background-color: white;}
+body {
+font-family: 'Open Sans', sans-serif; 
+background-color: white;
+background-image: url("greenglobe.jpeg");
+background-repeat: no-repeat;
+background-size: cover;
+}
 
 h2 {color: #158CC0; text-align: center;}
 
-p {margin: 30px; font-size: large;}
+p {margin: 10px; font-size: large;}
 
 img {
     float: left;
-    margin: 10px;
+    margin: 20px;
     margin-top: 75px;
     margin-bottom: 50px;
     margin-right: 10%;
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 #container {
@@ -20,12 +28,12 @@ img {
 }
 
 #header {
-    background-color: #158CC0;
+    background-color: #87bdd8;
     min-width: 406px;
     width: 100%;
-    height: 50px;
+    height: 35px;
     padding: 20px;
-    padding-top: 10px;
+    padding-top: 30px;
     margin-top: 10px;
     font-size: xx-large;
     color: white;
@@ -33,16 +41,18 @@ img {
 
 #header a {
     color: white;
-    font-size: large;
+    font-size: 1em;
     padding-right: 60px;
     padding-top: 20px;
     text-decoration: none;
+    margin-top: 15px;
+    font-style: oblique;
 }
 
 h2 {margin-top: 40px; text-decoration: underline;}
 
 #topbox {
-    margin-top: 30px;
+    margin-top: 10px;
     margin-bottom: 20px;
     padding: 20px;
     font-size: large;
@@ -71,9 +81,10 @@ footer {
     width: 100%;
     height: 4rem;
     bottom: 0px;
-    background-color: #158CC0;
+    background-color: #87bdd8;
     text-align: center;
     color: white;
-    padding-top: 1px;
-   
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-style: oblique;
 }
