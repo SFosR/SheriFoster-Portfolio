@@ -1,21 +1,19 @@
 * {margin: 0; padding: 0;}
 
 body {
-min-height: 100vh;    
+min-height: 100vh;  
 font-family: 'Open Sans', sans-serif; 
 background-color: white;
 background-image: url("greenglobe.jpeg");
 background-repeat: no-repeat;
 background-size: cover;
-display: flex;
-flex-direction: column;
 }
 
 h2 {color: #158CC0; text-align: center;}
 
 p {margin: 10px; font-size: large;}
 
-#mypic {
+img {
     float: left;
     margin: 20px;
     margin-top: 75px;
@@ -64,70 +62,20 @@ h2 {margin-top: 40px; text-decoration: underline;}
 #topbox p { text-align: center; font-size: large;}
 
 #bottombox {
-    width: 100%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 30px;
+
 }
 
-#bottombox p {
-    text-align: center;
-    margin-bottom: 10px;
-}
-
-/* Float four columns side by side */
-.column {
-    float: left;
-    width: 25%;
-    padding: 0 10px;
-  }
-  
-  /* Remove extra left and right margins, due to padding */
-  .row {margin: 0 -5px;}
-  
-  /* Clear floats after the columns */
-  .row:after {
-    content: "";
-    display: table;
-    clear: both;
-  }
-  
-  /* Responsive columns */
-  @media screen and (max-width: 600px) {
-    .column {
-      width: 100%;
-      display: block;
-      margin-bottom: 20px;
-    }
-  }
-  
-  /* Style the counter cards */
-  .card {
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    padding: 10px;
-    text-align: center;
-    background-color: transparent;
-  }
-
-/* .card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
-  } */
-
-  .container {
-    max-width: 300px;
-    margin: auto;
-    margin-top: 5vh;
-  }  
-
- .projectpic {
-      width: 100%;
-  }
-/* ul li {
+ul li {
     list-style-type: disc;
     line-height: 100%;
     margin-left: 230px;
     margin-top: 20px;
-} */
+
+}
 
 footer {
     position: absolute; 
@@ -137,7 +85,7 @@ footer {
     background-color: #87bdd8;
     text-align: center;
     color: white;
-    margin-top: auto;
+    margin-top: 20px;
     margin-bottom: 10px;
     font-style: oblique;
 }
