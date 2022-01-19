@@ -2,7 +2,7 @@
 
 ## Description
 
-Just a page telling potential employers about me. This site showcases some of my work so far in my journey through coding bootcamp.
+Just a page telling potential employers about me. This site showcases some of my work so far in my journey through coding bootcamp. 
 
 ## Appearance
 
