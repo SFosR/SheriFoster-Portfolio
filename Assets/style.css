@@ -9,7 +9,7 @@ background-repeat: no-repeat;
 background-size: cover;
 }
 
-h2 {color: #158CC0; text-align: center;}
+h2 {color: #177d76; text-align: center;}
 
 p {margin: 10px; font-size: large;}
 
@@ -29,7 +29,7 @@ img {
 }
 
 #header {
-    background-color: #87bdd8;
+    background-color: #177d76;
     min-width: 406px;
     width: 100%;
     height: 35px;
@@ -74,6 +74,7 @@ ul li {
     line-height: 100%;
     margin-left: 230px;
     margin-top: 20px;
+    padding-top: 5%;
 
 }
 
@@ -82,10 +83,15 @@ footer {
     width: 100%;
     height: 4rem;
     bottom: 0px;
-    background-color: #87bdd8;
+    background-color:  #177d76;
     text-align: center;
     color: white;
     margin-top: 20px;
     margin-bottom: 10px;
     font-style: oblique;
+}
+
+#contact a {
+    color: white;
+    padding: 10px;
 }
